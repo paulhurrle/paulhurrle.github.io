@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BlocFlix
-thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+title: BlocChat
+thumbnail-path: "img/blocchat.png"
+short-description: BlocChat is a chat room app that leverages AngularJS and Firebase that allows users to create custom rooms, view and write new messages.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/blocitoff.png)
 
 ## Explanation
 

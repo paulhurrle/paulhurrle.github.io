@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BlocFlix
+title: BlocJams
 thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+short-description: BlocJams is a music player for storing and listening to music collections online.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/blocipedia.png)
 
 ## Explanation
 
