@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BlocChat
-thumbnail-path: "img/blocchat.png"
+thumbnail-path: "/img/blocchat.png"
 short-description: BlocChat is a chat room app that leverages AngularJS and Firebase that allows users to create custom rooms, view and write new messages.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/blocchat.png)
 
 ## Explanation
 
