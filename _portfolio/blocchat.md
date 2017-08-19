@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BlocChat
-thumbnail-path: "/img/blocchat.png"
+thumbnail-path: "/img/blocchat1.png"
 short-description: BlocChat is an app that leverages AngularJS and Firebase to create a personalized chat room experience.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocchat.png)
+![](/img/blocchat1.png)
 
 ## Explanation
 
@@ -48,6 +48,8 @@ function RoomModalCtrl(Room, $uibModalInstance) {
         .controller('RoomModalCtrl', ['Room', '$uibModalInstance', RoomModalCtrl]);
 }
 {% endhighlight %}
+{:.center}
+![](/img/blocchatroom.png)
 
 Next I added logic to identify the active room and created message objects in the Firebase database to include this property. I added a message factory and controller in a similar fashion to those created for displaying and creating rooms. Next I included the Angular cookies module to enable tracking usernames, another property included within each message object. A run block was added to prompt new users to provide this information using similar modal logic as before. Then methods were added to execute when a user creates a new message, associating specific user and time properties with each message.
 
@@ -67,10 +69,10 @@ this.sendMessage = function () {
 }
 {% endhighlight %}
 
-The final step was styling and incorporating a few UI features including the option to submit messages on click or keypress and integrating user thumbnails.
-
 {:.center}
-![]({{ site.baseurl }}/img/blocchat.png)
+![](/img/blocchatuser.png)
+
+The final step was styling and incorporating a few UI features including the option to submit messages on click or keypress and integrating user thumbnails.
 
 ## Results
 
