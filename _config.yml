@@ -10,7 +10,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Tall, Dark, and Mighty Handsome Software Developer</h1>
+     <h1>The <span style="color: Green">Green</span> Software Developer</h1>
      <p>I'm a passionate developer with experience in JavaScript, AngularJS, and Rails.</p>
   header_text_feature_image:
   footer_text: >

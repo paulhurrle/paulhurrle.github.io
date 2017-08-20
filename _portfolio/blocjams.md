@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BlocJams
-thumbnail-path: "/img/blocjams5.png"
+thumbnail-path: "/img/blocjams.png"
 short-description: BlocJams is a music player for storing and listening to music collections online.
 
 ---
 
 {:.center}
-<img style="width: 250px;" src="/img/blocjams5.png">
+<img src="/img/blocjams.png" alt='Bloc Jams Mobile App'>
 
 ## Explanation
 
@@ -19,23 +19,39 @@ This project required the building of a Spotify-like app with the capability of 
 
 ## Solution
 
-Throughout the project, I used an editor, Atom, to build the backbone of the application, implement styling and responsiveness with CSS, and add interactivity using JavaScript, jQuery, or AngularJS.
+Throughout the project, I used an editor, Atom, to build the backbone of the application, implement styling and responsiveness with CSS, and add interactivity using JavaScript, jQuery, or AngularJS. A landing page, collections page, and album page were created in Phases I and II, which were replaced by templates in Phase III.
 
-{% highlight javascript %}
+{:.center}
+<em>Phase I: Native JavaScript</em>
 
-{% endhighlight %}
+{:.center}
+<img style="width: 600px;" src="/img/bloc-jams-JS.png" alt='Bloc Jams JavaScript'>
 
-A landing page, collections page, and album page were created in Phases I and II, which were replaced by templates in Phase III.
+{:.center}
+<em>Phase II: jQuery</em>
 
-{% highlight javascript %}
+{:.center}
+<img style="width: 600px;" src="/img/bloc-jams-jQ.png" alt='Bloc Jams jQuery'>
 
-{% endhighlight %}
+{:.center}
+<em>Phase III: AngularJS</em>
+
+{:.center}
+<p style="font-size: 1rem;">Home.html Template</p>
+
+{:.center}
+<img style="width: 600px;" src="/img/bloc-jams-angular-1.png" alt='Bloc Jams Angular Template'>
+
+{:.center}
+<p style="font-size: 1rem;">Home Controller</p>
+
+{:.center}
+<img style="width: 400px;" src="/img/bloc-jams-angular-2.png" alt='Bloc Jams Angular Controller'>
 
 No music player would be complete without the ability to play audio files.
 
-{% highlight javascript %}
-
-{% endhighlight %}
+{:.center}
+<img style="width: 600px;" src="/img/bloc-jams-JS-player.png">
 
 ## Results
 
