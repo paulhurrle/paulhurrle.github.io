@@ -1,14 +1,10 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
-url: "http://www.your-domain.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://paulhurrle.github.io"
 
-# THEME-SPECIFIC CONFIGURATION
 theme_settings:
-  # Meta
-  title: Paul Hurrle # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Paul Hurrle
+  description: "A Jekyll-based portfolio and blog website"
 
-  # Header and footer text
   header_text: >
      <h1>The <span style="color: Green">Green</span> Software Developer</h1>
      <p>I'm a passionate developer with experience in JavaScript, AngularJS, and Rails.</p>
@@ -18,32 +14,30 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: paul_hurrle@yahoo.com # Full email address, e.g. "sam@example.com"
+  email_address: "paul_hurrle@yahoo.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: paulhurrle # github profile name, e.g. "madebymunsters"
+  github: "paulhurrle"
   google_plus:
   instagram:
-  linkedin:  https://www.linkedin.com/in/paulhurrle/ # Full URL
+  linkedin:  https://www.linkedin.com/in/paulhurrle/
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  https://stackexchange.com/users/11096429/paul-hurrle
   steam:
   tumblr:
   twitter: https://twitter.com/PaulHurrle
   wordpress:
   youtube:
 
-  # Scripts
   google_analytics: "UA-105072030-1"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: true
 
-  # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
@@ -51,21 +45,16 @@ theme_settings:
   str_prev: "Prev"
   str_continue_reading: "Read more &raquo;"
 
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
-# PAGINATION
 paginate: 100
 paginate_path: "blog/page:num"
 
-# COLLECTIONS
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
 
-# BUILD SETTINGS
 markdown: kramdown
 
 sass:
