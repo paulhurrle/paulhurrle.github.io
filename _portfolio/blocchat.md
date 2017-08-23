@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BlocChat
+title: Prattle
 thumbnail-path: "/img/blocchat1.png"
-short-description: BlocChat is an app that leverages AngularJS and Firebase to create a personalized chat room experience.
+short-description: Prattle is an app that leverages AngularJS and Firebase to create a personalized chat room experience.
 
 ---
 
