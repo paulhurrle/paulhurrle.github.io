@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BlocJams
+title: Jangle
 thumbnail-path: "/img/blocjams.png"
-short-description: BlocJams is a music player for storing and listening to music collections online.
+short-description: Jangle is a music player for storing and listening to music collections online.
 
 ---
 
 {:.center}
-<img src="/img/blocjams.png" alt='Bloc Jams Mobile App'>
+<img src="/img/blocjams.png" alt='Jangle Mobile App'>
 
 ## Explanation
 
@@ -25,13 +25,13 @@ Throughout the project, I used an editor, Atom, to build the backbone of the app
 <em>Phase I: Native JavaScript</em>
 
 {:.center}
-<img style="width: 600px;" src="/img/bloc-jams-JS.png" alt='Bloc Jams JavaScript'>
+<img style="width: 600px;" src="/img/bloc-jams-JS.png" alt='Jangle JavaScript'>
 
 {:.center}
 <em>Phase II: jQuery</em>
 
 {:.center}
-<img style="width: 600px;" src="/img/bloc-jams-jQ.png" alt='Bloc Jams jQuery'>
+<img style="width: 600px;" src="/img/bloc-jams-jQ.png" alt='Jangle jQuery'>
 
 {:.center}
 <em>Phase III: AngularJS</em>
@@ -40,13 +40,13 @@ Throughout the project, I used an editor, Atom, to build the backbone of the app
 <p style="font-size: 1rem;">Home.html Template</p>
 
 {:.center}
-<img style="width: 600px;" src="/img/bloc-jams-angular-1.png" alt='Bloc Jams Angular Template'>
+<img style="width: 600px;" src="/img/bloc-jams-angular-1.png" alt='Jangle Angular Template'>
 
 {:.center}
 <p style="font-size: 1rem;">Home Controller</p>
 
 {:.center}
-<img style="width: 400px;" src="/img/bloc-jams-angular-2.png" alt='Bloc Jams Angular Controller'>
+<img style="width: 400px;" src="/img/bloc-jams-angular-2.png" alt='Jangle Angular Controller'>
 
 No music player would be complete without the ability to play audio files.
 
