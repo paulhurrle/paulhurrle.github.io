@@ -7,7 +7,7 @@ short-description: Bloccit is a messaging application where users create, vote o
 ---
 
 {:.center}
-![](/img/bloccit_home.png)
+<img style="width: 600px;" src="/img/bloccit_home.png" alt='Bloccit'>
 
 ## Explanation
 
