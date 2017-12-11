@@ -1,4 +1,13 @@
-<img style="width: 600px;" src="app/assets/images/jabberwiki_home.png" alt='Jabberwiki'>
+---
+layout: post
+title: Jabberwiki
+thumbnail-path: "/img/jabberwiki.png"
+short-description: Jabberwiki is a CRUD application built using Ruby on Rails that allows users to create public and private Markdown-based wikis.
+
+---
+
+{:.center}
+![](/img/jabberwiki_home.png)
 
 ## Explanation
 
@@ -25,8 +34,10 @@ from the User model and configuring Action Mailer to generate an email to the ad
 embedded html content was added to the navigation bar atop `application.html.erb` to prompt an unauthenticated user to sign in, or to
 provide custom links for a user who has signed in.
 
+{:.center}
 <img style="width: 600px;" src="app/assets/images/jabberwiki_signedin2.png" alt='Signed In HTML'>
 
+{:.center}
 <img style="width: 600px;" src="app/assets/images/jabberwiki_signedin1.png" alt='Signed In View'>
 
 Setting up the CRUD actions associated with new and existing wikis required the addition of a wiki model with appropriate attributes:
