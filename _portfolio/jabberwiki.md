@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jabberwiki
-thumbnail-path: "/img/jabberwiki.png"
+thumbnail-path: "/img/jabberwiki_home.png"
 short-description: Jabberwiki is a CRUD application built using Ruby on Rails that allows users to create public and private Markdown-based wikis.
 
 ---
@@ -35,18 +35,18 @@ embedded html content was added to the navigation bar atop `application.html.erb
 provide custom links for a user who has signed in.
 
 {:.center}
-<img style="width: 600px;" src="app/assets/images/jabberwiki_signedin2.png" alt='Signed In HTML'>
+<img style="width: 600px;" src="/img/jabberwiki_signedin2.png" alt='Signed In HTML'>
 
 {:.center}
-<img style="width: 600px;" src="app/assets/images/jabberwiki_signedin1.png" alt='Signed In View'>
+<img style="width: 600px;" src="/img/jabberwiki_signedin1.png" alt='Signed In View'>
 
 Setting up the CRUD actions associated with new and existing wikis required the addition of a wiki model with appropriate attributes:
 title, body, and private (which defaults to false). Since wikis belong to users, the appropriate relationship was specified in the wikis
 model using a `user:references` attribute. Finally, a corresponding Wikis Controller was added with methods for handling each CRUD action.
 
-<img style="width: 600px;" src="app/assets/images/jabberwiki_wiki_model.png" alt='Wiki Model'>
+<img style="width: 600px;" src="/img/jabberwiki_wiki_model.png" alt='Wiki Model'>
 
-<img style="width: 600px;" src="app/assets/images/jabberwiki_wiki_controller.png" alt='Wikis Controller'>
+<img style="width: 600px;" src="/img/jabberwiki_wiki_controller.png" alt='Wikis Controller'>
 
 The Pundit gem was installed to allow user authorization into one of three roles: standard (default), premium (paid upgrade), and admin.
 Since users must be authorized prior to editing a public wiki, a method was added to `application_policy.rb` to check whether a user is
@@ -63,7 +63,7 @@ a convenient and safe way to verify a card is valid and route the money, with on
 3. Create a Charges Controller with methods for creating a charge (which also upgrades the user's role if successful) and downgrading users.
 4. Create the corresponding views and routes for charges.
 
-<img style="width: 600px;" src="app/assets/images/jabberwiki_stripe.png" alt='Stripe'>
+<img style="width: 600px;" src="/img/jabberwiki_stripe.png" alt='Stripe'>
 
 Premium and admin users need the ability to assign new wikis as private, or change existing wikis to private. Similarly, only authorized
 users should be able to see private wikis on `index.html.erb`. This functionality required the use of form partials that rendered this content only if a user of the specified role is verified.
@@ -74,7 +74,7 @@ One of the unique features of community-sourced content is the ability to collab
 Jabberwiki started with creating a Collaborator model with the appropriate relationships to users and wikis, then using policy scoping
 to render content based on the current user's role and collaborator status, and information about the wiki itself.
 
-<img style="width: 600px;" src="app/assets/images/jabberwiki_wiki_policy.png" alt='Wiki Policy'>
+<img style="width: 600px;" src="/img/jabberwiki_wiki_policy.png" alt='Wiki Policy'>
 
 ## Conclusion
 
