@@ -44,8 +44,10 @@ Setting up the CRUD actions associated with new and existing wikis required the 
 title, body, and private (which defaults to false). Since wikis belong to users, the appropriate relationship was specified in the wikis
 model using a `user:references` attribute. Finally, a corresponding Wikis Controller was added with methods for handling each CRUD action.
 
+{:.center}
 <img style="width: 600px;" src="/img/jabberwiki_wiki_model.png" alt='Wiki Model'>
 
+{:.center}
 <img style="width: 600px;" src="/img/jabberwiki_wiki_controller.png" alt='Wikis Controller'>
 
 The Pundit gem was installed to allow user authorization into one of three roles: standard (default), premium (paid upgrade), and admin.
@@ -63,6 +65,7 @@ a convenient and safe way to verify a card is valid and route the money, with on
 3. Create a Charges Controller with methods for creating a charge (which also upgrades the user's role if successful) and downgrading users.
 4. Create the corresponding views and routes for charges.
 
+{:.center}
 <img style="width: 600px;" src="/img/jabberwiki_stripe.png" alt='Stripe'>
 
 Premium and admin users need the ability to assign new wikis as private, or change existing wikis to private. Similarly, only authorized
@@ -74,6 +77,7 @@ One of the unique features of community-sourced content is the ability to collab
 Jabberwiki started with creating a Collaborator model with the appropriate relationships to users and wikis, then using policy scoping
 to render content based on the current user's role and collaborator status, and information about the wiki itself.
 
+{:.center}
 <img style="width: 600px;" src="/img/jabberwiki_wiki_policy.png" alt='Wiki Policy'>
 
 ## Conclusion
